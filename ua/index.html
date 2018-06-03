@@ -1,0 +1,66 @@
+  <!-- Flatdoc -->
+  <script src="https://d1bhbfzxsgnz1o.cloudfront.net/scripts/jquery-1.9.1.min.js"></script>
+  <script src='https://d1bhbfzxsgnz1o.cloudfront.net/scripts/legacy.js'></script>
+  <script src='https://d1bhbfzxsgnz1o.cloudfront.net/scripts/flatdoc.js'></script>
+
+  <!-- Flatdoc theme -->
+  <link  href='css/style.css' rel='stylesheet'>
+  <script src='https://d1bhbfzxsgnz1o.cloudfront.net/scripts/script.js'></script>
+
+  <!-- Meta -->
+  <meta content="Blynk" property="og:title">
+  <meta content="Blynk - build an app for your Arduino project in 5 minutes" name="description">
+
+  <!-- Initializer -->
+  <script>
+      Flatdoc.run({
+          fetcher: Flatdoc.file([
+              'IntroAndDownloads.md',
+              'GettingStarted.md',
+              'HardwareSetUps.md',
+              'BlynkMainOperations.md',
+              'Widgets.md',
+              'Sharing.md',
+              'http.md',
+              'SupportedHardware.md',
+              'Troubleshooting.md',
+              'Security.md',
+              'OTA.md',
+              'BlynkServer.md',
+              'BlynkFirmware.md',
+              'FAQ.md',
+              'Links.md',
+              'License.md'
+          ])
+      });
+  </script>
+
+</head>
+<body role='flatdoc'>
+
+  <div class='header'>
+    <div class='left'>
+      <h1><a href='http://blynk.cc'>Blynk</a></h1>
+    </div>
+    <div class='right'>
+      <!-- GitHub buttons: see http://ghbtns.com -->
+
+            <ul>
+        <li><a href='https://blynk.cc'>Home</a></li>
+        <li><a href='https://www.blynk.cc/getting-started'>Getting Started</a></li>
+        <li><a href='http://docs.blynk.cc/'>docs </a></li>
+        <li><a href='https://community.blynk.cc/'>Community</a></li>
+</ul>
+    </div>
+  </div>
+
+  <div class='content-root'>
+
+    <div class='menubar'>
+      <div class='menu section' role='flatdoc-menu'></div>
+    </div>
+    <div role='flatdoc-content' class='content'></div>
+  </div>
+
+</body>
+</html>
